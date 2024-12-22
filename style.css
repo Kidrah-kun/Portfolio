@@ -1,0 +1,98 @@
+/* General Body Styling */
+body {
+    background-image: url(./Image\ 22-12-24\ at\ 7.22\ PM.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the Main Heading */
+h1 {
+    font-size: 120px;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+/* Styling for the Section */
+section {
+    margin: 100px auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Section Heading Styling */
+section h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Paragraph Styling */
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: aliceblue;
+}
+
+/* Footer Styling */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 20px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer nav {
+    display: flex;
+    gap: 20px;
+}
+
+footer nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+    color: #f0e68c;
+}
+
+footer .social-media {
+    display: flex;
+    gap: 15px;
+}
+
+footer .social-media a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+footer .social-media a img:hover {
+    transform: scale(1.2);
+}
