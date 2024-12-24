@@ -111,6 +111,7 @@ h1 {
     background-position: center;
     color: aliceblue;
     text-align: center;
+   
 }
 
 /* Grid and Features */
@@ -126,6 +127,14 @@ h1 {
 
 .img:hover {
     transform: scale(1.1);
+}
+
+
+.grid-container{
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
 }
 
 .grid-container p {
@@ -189,7 +198,7 @@ h1 {
 }
 
 .feature p {
-    font-size: 16px;
+    font-size:30px;
     line-height: 1.6;
     color: aliceblue;
 }
